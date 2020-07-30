@@ -38,3 +38,12 @@ actually allows you to use [several
 fonts](https://apastyle.apa.org/style-grammar-guidelines/paper-format/font)
 including [Computer Modern](https://tug.org/FontCatalogue/computermodern/)
 which is included with [LaTeX](https://www.latex-project.org)
+
+## References
+
+Add
+[BibTeX](https://tex.stackexchange.com/questions/25701/bibtex-vs-biber-and-biblatex-vs-natbib)
+style references to `references/references.bib`. [ZoteroBib](https://zbib.org)
+is a nice tool for generating references which can be downloaded as `BibTeX`
+files. Then use them in `main.md` by writing `[@reference_name, page_number]`
+in your content.
