@@ -1,10 +1,10 @@
 ---
-title: {{paper_title}}
-date: {{paper_date}}
-author: {{paper_author}}
+title: {{cookiecutter.paper_title}}
+date: {{cookiecutter.paper_date}}
+author: {{cookiecutter.paper_author}}
 geometry:
   margin=1in
 fontsize: 12pt
-mainfont: {{paper_font}}
+mainfont: {{cookiecutter.paper_font}}
 indent: true
 linestretch: 2
