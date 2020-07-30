@@ -1,4 +1,5 @@
 {
+    "user_id": "cg433n",
     "project_name": "apa-paper",
     "paper_author": "First Last",
     "paper_date": "January 1, 2020",
@@ -7,5 +8,6 @@
     "university_name": "University of Arizona",
     "class_name": "Class Name",
     "instructor_name": "Dr. Instructor/Professor Name",
-    "file_slug": "main"
+    "_copy_without_render": [
+        "config/template.tex"
 }

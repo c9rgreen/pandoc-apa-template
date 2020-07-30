@@ -1,8 +1,8 @@
 ---
 from: markdown+emoji
-output-file: "{{cookiecutter.file_slug}}.pdf"
+output-file: "{{cookiecutter.user_id}}-{{cookiecutter.project_name}}.pdf"
 input-files:
-  - "{{cookiecutter.file_slug}}.md"
+  - "{{cookiecutter.user_id}}-{{cookiecutter.project_name}}.md"
   - includes/references.tex
 filters:
   - pandoc-citeproc
