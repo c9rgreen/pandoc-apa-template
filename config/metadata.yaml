@@ -1,0 +1,9 @@
+title: Title
+date: July 30, 2020
+author: Author Name
+geometry:
+  margin=1in
+fontsize: 12pt
+mainfont: TimesNewRomanPSMT
+indent: true
+linestretch: 2
