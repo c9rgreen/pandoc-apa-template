@@ -31,8 +31,6 @@ $ make install
 
 Optional: Copy the fonts which you want to use to `fonts/`.
 
-Update `title`, `date`, and `author` in `config/metadata.yaml`.
-
 Build the PDF.
 
 ```sh
