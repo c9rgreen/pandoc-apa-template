@@ -45,5 +45,6 @@ Add
 [BibTeX](https://tex.stackexchange.com/questions/25701/bibtex-vs-biber-and-biblatex-vs-natbib)
 style references to `references/references.bib`. [ZoteroBib](https://zbib.org)
 is a nice tool for generating references which can be downloaded as `BibTeX`
-files. Then use them in `main.md` by writing `[@reference_name, page_number]`
-in your content.
+files. I copy and paste the references in BibTeX files to `references.bib` and
+use them in `main.md` by writing `[@reference_name, page_number]` in your
+content.
