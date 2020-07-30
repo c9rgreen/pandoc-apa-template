@@ -9,6 +9,6 @@
     "class_name": "Class Name",
     "instructor_name": "Dr. Instructor/Professor Name",
     "_copy_without_render": [
-        "template.tex"
+        "*.tex"
     ]
 }

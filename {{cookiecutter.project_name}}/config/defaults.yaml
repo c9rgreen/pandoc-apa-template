@@ -10,5 +10,4 @@ bibliography: references/references.bib
 csl: config/apa-6th-edition.csl
 pdf-engine: xelatex
 include-in-header: includes/in-header.tex
-include-before-body: includes/before-body.tex
 template: config/template.tex

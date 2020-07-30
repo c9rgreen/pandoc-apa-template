@@ -413,6 +413,7 @@ $if(title)$
 $if(beamer)$
 \frame{\titlepage}
 $else$
+% Maketitle disabled here so that the cover page can be generated
 %\maketitle
 $endif$
 $if(abstract)$
@@ -456,6 +457,35 @@ $endif$
 $if(linestretch)$
 \setstretch{$linestretch$}
 $endif$
+
+% Cover page
+\doublespacing{}
+
+\topskip0pt
+\vspace*{\fill}
+
+\begin{center}
+
+\textbf{\thetitle}
+
+\vspace{0.5in}
+
+\theauthor{}
+
+${university-name}
+
+${class-name}
+
+${instructor-name}
+
+\thedate{}
+
+\end{center}
+
+\vspace*{\fill}
+
+\pagebreak
+% End cover page
 
 $if(has-frontmatter)$
 \mainmatter

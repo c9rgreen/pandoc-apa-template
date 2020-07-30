@@ -8,3 +8,7 @@ fontsize: 12pt
 mainfont: {{cookiecutter.paper_font}}
 indent: true
 linestretch: 2
+
+university-name: {{cookiecutter.university_name}}
+class-name: {{cookiecutter.class_name}}
+instructor-name: {{cookiecutter.instructor_name}}
