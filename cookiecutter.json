@@ -1,11 +1,11 @@
 {
-    project_name: "apa-paper",
-    paper_author: "First Last",
-    paper_date: "January 1, 2020",
-    paper_title: "Paper Title",
-    paper_font: "TimesNewRomanPSMT",
-    university_name: "University of Arizona",
-    class_name: "Class Name",
-    instructor_name: "Dr. Instructor/Professor Name",
-    file_slug: "main"
+    "project_name": "apa-paper",
+    "paper_author": "First Last",
+    "paper_date": "January 1, 2020",
+    "paper_title": "Paper Title",
+    "paper_font": "TimesNewRomanPSMT",
+    "university_name": "University of Arizona",
+    "class_name": "Class Name",
+    "instructor_name": "Dr. Instructor/Professor Name",
+    "file_slug": "main"
 }

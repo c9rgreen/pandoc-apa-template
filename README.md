@@ -5,11 +5,23 @@ write papers which follow the [APA style](https://apastyle.apa.org).
 
 ## Requirements
 
+* [Python 3.8](https://www.python.org/downloads/)
 * [Docker](https://www.docker.com)
 * [Make](https://www.gnu.org/software/make/)
 * Fonts as needed. See more info about fonts below.
 
 ## Getting started
+
+Use [Cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.2/README.html) to
+quickly scaffold a Pandoc project.
+
+```
+$ pip install --user cookiecutter
+
+$ cookiecutter git@github.com:cg433n/pandoc-apa-template.git
+```
+
+Follow the prompts.
 
 Pull the [Docker image](https://hub.docker.com/r/pandoc/latex).
 
