@@ -1,9 +1,10 @@
+---
 from: markdown+emoji
 output-file: main.pdf
 input-files:
   - main.md
   - includes/references.tex
-filters: 
+filters:
   - pandoc-citeproc
 bibliography: references/references.bib
 csl: config/apa-6th-edition.csl
