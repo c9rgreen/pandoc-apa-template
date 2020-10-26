@@ -11,3 +11,5 @@ csl: config/apa-6th-edition.csl
 pdf-engine: xelatex
 include-in-header: includes/in-header.tex
 template: config/template.tex
+variables:
+  documentclass: apa7
